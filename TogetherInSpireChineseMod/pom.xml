@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>TogetherInSpireChineseMod</groupId>
-    <artifactId>TogetherInSpireChineseMod</artifactId>
+    <groupId>org.deholder</groupId>
+    <artifactId>TogetherInSpireChinesePatch</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>TogetherInSpireChineseMod</name>
-    <description>a sts mod.</description>
+    <name>TogetherInSpireChinesePatch</name>
+    <description>a Chinese Patch for TogetherInSpire mod.</description>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <SlayTheSpire.version>12-22-2020</SlayTheSpire.version>
         <ModTheSpire.version>3.23.2</ModTheSpire.version>
-        <Steam.path>D:/SteamLibrary/steamapps</Steam.path>
+        <Steam.path>C:\Program Files (x86)\Steam\steamapps</Steam.path>
     </properties>
 
     <dependencies>
@@ -72,7 +72,8 @@
                         <phase>package</phase>
                         <configuration>
                             <target>
-                                <copy file="target/${project.artifactId}.jar" tofile="${Steam.path}/common/SlayTheSpire/mods/${project.artifactId}.jar"/>
+                                <copy file="target/${project.artifactId}.jar"
+                                      tofile="${Steam.path}/common/SlayTheSpire/mods/${project.artifactId}.jar"/>
                             </target>
                         </configuration>
                         <goals>
