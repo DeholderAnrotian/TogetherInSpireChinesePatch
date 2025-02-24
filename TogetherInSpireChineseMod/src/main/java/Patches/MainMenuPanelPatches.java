@@ -12,7 +12,7 @@ import spireTogether.util.Reflection;
         requiredModId = "spireTogether"
 )
 public class MainMenuPanelPatches {
-    public static void Postfix(MenuButton __instance, String ___label)
+    public static void Postfix(MenuButton __instance)
     {
         if(Settings.language== Settings.GameLanguage.ZHS)
         {
