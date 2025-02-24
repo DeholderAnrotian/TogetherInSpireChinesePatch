@@ -2,9 +2,7 @@ package Patches;
 
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.megacrit.cardcrawl.core.Settings;
-import com.megacrit.cardcrawl.screens.mainMenu.MainMenuScreen;
 import com.megacrit.cardcrawl.screens.mainMenu.MenuButton;
-import spireTogether.SpireTogetherMod;
 import spireTogether.patches.ui.MainMenuButtonsPatch;
 import spireTogether.util.Reflection;
 
