@@ -5,13 +5,15 @@
       "从剪贴板粘贴",
       "取消",
       "创建房间",
-      "作为主机",
+      "开服并开始游戏",
       "多人游戏",
       "端口",
       "IP",
       "加入游戏"
     ],
-    "EXTRA_TEXT": [""]
+    "EXTRA_TEXT": [
+      ""
+    ]
   },
   "spireTogether:Panels": {
     "TEXT": [
@@ -28,7 +30,9 @@
       "Together in Spire",
       "Together in Spire更新日志"
     ],
-    "EXTRA_TEXT": [""]
+    "EXTRA_TEXT": [
+      ""
+    ]
   },
   "spireTogether:MainMenuPanelOverlay": {
     "TEXT": [
@@ -36,7 +40,9 @@
       "兑换码",
       "存档清理"
     ],
-    "EXTRA_TEXT": [""]
+    "EXTRA_TEXT": [
+      ""
+    ]
   },
   "spireTogether:MPCodeRedeemScreen": {
     "TEXT": [
@@ -46,7 +52,9 @@
       "兑换码无效",
       "兑换码已使用!"
     ],
-    "EXTRA_TEXT": [""]
+    "EXTRA_TEXT": [
+      ""
+    ]
   },
   "spireTogether:SavePurgerScreen": {
     "TEXT": [
@@ -58,7 +66,9 @@
       "天的存档",
       "删除"
     ],
-    "EXTRA_TEXT": [""]
+    "EXTRA_TEXT": [
+      ""
+    ]
   },
   "spireTogether:SteamLobbyListScreen": {
     "TEXT": [
@@ -70,13 +80,17 @@
       "隐藏不兼容的TogetherInSpire版本",
       "暂时不可用"
     ],
-    "EXTRA_TEXT": [""]
+    "EXTRA_TEXT": [
+      ""
+    ]
   },
   "spireTogether:CreateLobbyScreen": {
     "TEXT": [
       "房间名:",
       "密码:"
     ],
-    "EXTRA_TEXT": [""]
+    "EXTRA_TEXT": [
+      ""
+    ]
   }
 }
