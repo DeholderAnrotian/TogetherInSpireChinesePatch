@@ -4,7 +4,11 @@ import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.megacrit.cardcrawl.core.Settings;
 import dLib.util.Reflection;
 import spireTogether.screens.lobby.settings.MPSettingsScreen;
-import spireTogether.ui.elements.settings.*;
+import spireTogether.ui.elements.settings.EnumUISetting;
+import spireTogether.ui.elements.settings.IntegerArrowUISetting;
+import spireTogether.ui.elements.settings.ToggleUISetting;
+
+import java.util.List;
 
 @SpirePatch(clz = spireTogether.screens.lobby.settings.MPSettingsScreen.class, method = "init", requiredModId = "spireTogether")
 public class MPSettingsScreenCP
@@ -30,12 +34,19 @@ public class MPSettingsScreenCP
       }
       ToggleUISetting temp4 = (ToggleUISetting) __instance.iterables.get(4).other.get(0);
       temp4.label.text = stringArray[4];
+
       EnumUISetting temp5 = (EnumUISetting) __instance.iterables.get(5).middle;
       temp5.label.text = stringArray[5];
+      List<String> enumList5 = Reflection.getFieldValue("enumList", temp5);
+      temp5.valueText.SetText(enumList5.get(temp5.currentEnum).replace("_", " "));
+
       ToggleUISetting temp6 = (ToggleUISetting) __instance.iterables.get(6).other.get(0);
       temp6.label.text = stringArray[6];
+
       EnumUISetting temp7 = (EnumUISetting) __instance.iterables.get(7).middle;
       temp7.label.text = stringArray[7];
+      List<String> enumList7 = Reflection.getFieldValue("enumList", temp7);
+      temp7.valueText.SetText(enumList7.get(temp7.currentEnum).replace("_", " "));
     }
   }
 }
