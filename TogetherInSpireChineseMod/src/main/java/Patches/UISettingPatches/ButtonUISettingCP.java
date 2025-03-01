@@ -1,4 +1,4 @@
-package Patches.ButtonPatches;
+package Patches.UISettingPatches;
 
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.megacrit.cardcrawl.core.Settings;
