@@ -1,11 +1,11 @@
 {
-  "modid": "TogetherInSpireChineseMod",
-  "name": "TogetherInSpireChineseMod",
+  "modid": "TogetherInSpireChinesePatch",
+  "name": "TogetherInSpireChinesePatch",
   "author_list": [
     "YeYuCheng",
     "Deholder"
   ],
-  "description": "TogetherInSpire的简易汉化mod。",
+  "description": "**TogetherInSpire的汉化补丁**。",
   "version": "1.0.0",
   "sts_version": "12-18-2022",
   "mts_version": "3.30.3",
