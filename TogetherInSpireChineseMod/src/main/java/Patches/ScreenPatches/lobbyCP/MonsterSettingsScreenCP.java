@@ -13,7 +13,7 @@ public class MonsterSettingsScreenCP
   {
     if (Settings.language == Settings.GameLanguage.ZHS)
     {
-      Reflection.setFieldValue("name", __instance, "怪物");
+      Reflection.setFieldValue("name", __instance, "怪物设置");
       String[] stringArray = new String[4];
       stringArray[0] = "怪物基础血量倍率";
       stringArray[1] = "每名玩家使怪物血量上升值";

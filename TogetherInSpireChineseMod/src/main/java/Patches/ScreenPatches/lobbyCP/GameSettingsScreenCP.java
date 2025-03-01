@@ -16,7 +16,7 @@ public class GameSettingsScreenCP
   {
     if (Settings.language == Settings.GameLanguage.ZHS)
     {
-      Reflection.setFieldValue("name", __instance, "游戏");
+      Reflection.setFieldValue("name", __instance, "游戏设置");
       String[] stringArray = new String[6];
       stringArray[0] = "游戏种子";
       stringArray[1] = "进阶等级";
