@@ -16,9 +16,6 @@ public class MPHostCustomizerCP
     {
       if (Settings.language == Settings.GameLanguage.ZHS)
       {
-//        __instance.iterables.get(1).other.set(0, new BoxedLabel("游戏设置", 75 + ui.arrow_left.getWidth() + 5, 40, 305, ui.arrow_left.getHeight())
-//        {
-//        });
         __instance.frontLayer.elements.set(0, new BoxedLabel("本体游戏特效", 1280, 24, 425, 110));
       }
     }
