@@ -31,13 +31,9 @@ public class ChatConsoleCP
         {
           openPrompt = ParseText("按Tab键打开聊天框", (int) (210.0F * Settings.scale), (int) (200.0F * Settings.scale));
         }
-
+        return SpireReturn.Return();
       }
-      else
-      {
-        __instance.receivePostInitialize();
-      }
-      return SpireReturn.Return();
+      return SpireReturn.Continue();
     }
   }
 
@@ -51,13 +47,9 @@ public class ChatConsoleCP
         setCurrentText(updatedText);
         currentMessage = ParseText("输入: " + currentText, (int) (210.0F * Settings.scale), (int) (200.0F * Settings.scale));
         currentMessage.remove(0);
-
+        return SpireReturn.Return();
       }
-      else
-      {
-        __instance.setText(updatedText);
-      }
-      return SpireReturn.Return();
+      return SpireReturn.Continue();
     }
   }
 }
